@@ -16,6 +16,9 @@ export FNM_ARCH="arm64"
 export FNM_VERSION_FILE_STRATEGY="local"
 rehash
 
+# cargo
+export PATH=/Users/Shared/.cargo/bin:$PATH
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
