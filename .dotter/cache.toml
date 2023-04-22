@@ -1,0 +1,18 @@
+[symlinks]
+"nvim/.gitignore" = "/Users/zionchen/.config/nvim/.gitignore"
+"nvim/.neoconf.json" = "/Users/zionchen/.config/nvim/.neoconf.json"
+"nvim/LICENSE" = "/Users/zionchen/.config/nvim/LICENSE"
+"nvim/README.md" = "/Users/zionchen/.config/nvim/README.md"
+"nvim/init.lua" = "/Users/zionchen/.config/nvim/init.lua"
+"nvim/lazy-lock.json" = "/Users/zionchen/.config/nvim/lazy-lock.json"
+"nvim/lua/config/autocmds.lua" = "/Users/zionchen/.config/nvim/lua/config/autocmds.lua"
+"nvim/lua/config/keymaps.lua" = "/Users/zionchen/.config/nvim/lua/config/keymaps.lua"
+"nvim/lua/config/lazy.lua" = "/Users/zionchen/.config/nvim/lua/config/lazy.lua"
+"nvim/lua/config/options.lua" = "/Users/zionchen/.config/nvim/lua/config/options.lua"
+"nvim/lua/plugins/catppuccin.lua" = "/Users/zionchen/.config/nvim/lua/plugins/catppuccin.lua"
+"nvim/lua/plugins/codeium.lua" = "/Users/zionchen/.config/nvim/lua/plugins/codeium.lua"
+"nvim/lua/plugins/example.lua" = "/Users/zionchen/.config/nvim/lua/plugins/example.lua"
+"nvim/stylua.toml" = "/Users/zionchen/.config/nvim/stylua.toml"
+zshrc = "/Users/zionchen/.zshrc"
+
+[templates]

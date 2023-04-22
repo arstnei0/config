@@ -1,0 +1,18 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+h = ""
+
+[default.variables]
+
+[zsh.files]
+zshrc = "~/.zshrc"
+
+[nvim.files]
+nvim = "~/.config/nvim"
+
+[kitty.files]
+kitty = "~/.config/kitty"
