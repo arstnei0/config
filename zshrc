@@ -2,14 +2,14 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="/Users/Shared/.oh-my-zsh"
 export EDITOR="nvim"
 export PATH=~/depot/depot_tools:$PATH
 
 # FNM
 export PATH="/Users/zionchen/Library/Caches/fnm_multishells/9464_1678842867919/bin":$PATH
 export FNM_MULTISHELL_PATH="/Users/zionchen/Library/Caches/fnm_multishells/9464_1678842867919"
-export FNM_DIR="/Users/zionchen/Library/Application Support/fnm"
+export FNM_DIR="/Users/Shared/Library/Application Support/fnm"
 export FNM_LOGLEVEL="info"
 export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
 export FNM_ARCH="arm64"
