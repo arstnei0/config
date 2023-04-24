@@ -12,8 +12,6 @@ vim.filetype.add({
   },
 })
 
-vim.cmd("autocmd BufEnter *.slint :setlocal filetype=slint")
-
 -- every spec file under config.plugins will be loaded automatically by lazy.nvim
 --
 -- In your plugin files, you can:
@@ -24,9 +22,6 @@ return {
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "gruvbox",
-    },
   },
 
   {
@@ -171,6 +166,7 @@ return {
         "vim",
         "yaml",
         "astro",
+        "rust",
       },
     },
   },
@@ -278,9 +274,5 @@ return {
         end, { "i", "s" }),
       })
     end,
-  },
-
-  {
-    "slint-ui/vim-slint",
   },
 }

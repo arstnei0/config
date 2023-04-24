@@ -130,3 +130,11 @@ alias cb="cargo build"
 alias nv="nvim"
 alias h="cd ~/h"
 alias prettierinit="cp ~/prettier/.* ."
+
+autoload -Uz vcs_info
+precmd() { vcs_info }
+
+zstyle ':vcs_info:git:*' formats '%b '
+
+setopt PROMPT_SUBST
+PROMPT='%F{blue}%~%f %F{cyan}>%f '
